@@ -1,4 +1,4 @@
-# range(start, stop, step):
+# range(start, stop (doesnt exicute), step):
 
 for i in range(5):
     print(f"i = {i}")
