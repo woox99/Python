@@ -13,7 +13,7 @@ class shoe:
         self.price = self.price * (1-percent_off/100)
 
 #object of class/ object instance
-skater_shoe = shoe("Vans", "low-top", 59.99) #first argument is 'skater_shoe' which gets passed to self
+skater_shoe = shoe("Vans", "low-top", 59.99) #first argument is 'skater_shoe' which gets passed to self. self refers to skater_shoe (the instance)
 dress_shoe = shoe("Jack & Jill Bootery", "Ballet Flats", 29.99)
 
 #call instance method
