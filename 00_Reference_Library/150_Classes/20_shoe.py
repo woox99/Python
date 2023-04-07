@@ -1,7 +1,7 @@
 class Shoe:
     # now our method has 4 parameters (including self)!
     def __init__(self, brand, shoe_type, price):
-        # we assign them accordingly
+        # assings the paramters to the instances
         self.brand = brand
         self.type = shoe_type
         self.price = price
