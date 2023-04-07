@@ -5,7 +5,6 @@ class Shoe:
         self.brand = brand
         self.type = shoe_type
         self.price = price
-        # the status is set to True by default
         self.in_stock = True
 
 

@@ -2,7 +2,7 @@
 class shoe:
     # contstructor function - initial instance method always needs __init__ and self
     def __init__(self, brand, shoe_type, price):
-        #instance variables
+        #instances / instance variables
         self.brand = brand
         self.type = shoe_type
         self.price = price
