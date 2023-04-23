@@ -4,11 +4,11 @@ class BankAccount:
         self.balance = balance
 
 class User:
-    def __init__ (self, name, email):
+    def __init__ (self, name, email, int, bal):
         self.name = name
         self.email = email
-        self.account = BankAccount(0.02, 0)
+        self.account = BankAccount(int, bal)
 
-garett = User("Garett", "hawaii.edu")
+garett = User("Garett", "hawaii.edu", 0.02, 1000)
 
 print(garett.account.balance)
