@@ -24,5 +24,6 @@ class BankAccount:
         return sum
 
 garett = BankAccount(0.05, 2000)
-tj = BankAccount(0.07, 3000)
+tj = BankAccount(0.07, 300)
 print(BankAccount.all_balances())
+
